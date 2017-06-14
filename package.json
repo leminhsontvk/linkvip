@@ -1,13 +1,20 @@
 {
-	"name": "linkvip",
-	"version": "0.0.1",
-	"main": "server.js",
-	"dependencies":{
-		"express":"*",
-		"request":"*"
-	},
-	"repository":{
-		"type": "git",
-		"url": "https://github.com/anhbinhvodanh/linkvip"
-	}
+  "name": "linkvip",
+  "version": "0.0.1",
+  "description": "",
+  "engines": {
+    "node": "6.11.0"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "request": "*",
+    "express": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anhbinhvodanh/linkvip"
+  }
 }
