@@ -20,6 +20,10 @@ var headers =  {
 		'X-Requested-With': 'XMLHttpRequest'
   	};
 
+app.get("/", function(req, res){
+	res.end("Hello");
+});
+
 app.get("/get", function(req, res){
 	//res.end(req.query.link);
 	var form = {
