@@ -1,9 +1,13 @@
 {
 	"name": "linkvip",
 	"version": "0.0.1",
-	"private": "true",
+	"main": "server.js",
 	"dependencies":{
 		"express":"*",
 		"request":"*"
+	},
+	"repository":{
+		"type": "git",
+		"url": "https://github.com/anhbinhvodanh/linkvip"
 	}
 }
